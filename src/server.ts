@@ -8,7 +8,8 @@ const pool = new Pool({ connectionString: config.database_url });
 
 const main = async () => {
   try {
-    await pool.query(`SELECT NOW();`);
+    // await pool.query(`SELECT NOW();`);
+    await prisma.$connect();
     console.log("Connected to the database successfully");
     app.listen(PORT, () => {
       console.log(`Server is running at ${PORT}`);
