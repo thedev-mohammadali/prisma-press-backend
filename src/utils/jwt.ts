@@ -10,10 +10,17 @@ const createToken = (
 
 const verifyToken = (token: string, secret: string) => {
   try {
-    return jwt.verify(token, secret);
+    const verifiedToken = jwt.verify(token, secret);
+    return {
+      success: true,
+      data: verifiedToken,
+    };
   } catch (error: any) {
     console.log("Token verificaiton failed: ", error);
-    throw new Error(error.message);
+    return {
+      success: false,
+      error: error.message,
+    };
   }
 };
 
