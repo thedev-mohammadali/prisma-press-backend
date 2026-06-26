@@ -6,9 +6,14 @@ export interface ICreatePostPayload {
   thumbnail?: string;
   isFeatured?: boolean;
   status?: PostStatus;
-  tags: string[];
+  tags?: string[];
 }
 
-export interface GetPostParams {
-  postId: string;
+export interface IUpdatePostPayload {
+  title?: string;
+  content?: string;
+  thumbnail?: string;
+  isFeatured?: boolean;
+  status?: PostStatus;
+  tags?: string[];
 }
