@@ -24,13 +24,13 @@ It provides a secure REST API for user authentication, profile management, blog 
 **Live API**
 
 ```
-[Live Backend URL](https://prisma-press-backend-hou8.onrender.com)
+https://prisma-press-backend-hou8.onrender.com
 ```
 
 **Postman Collection**
 
 ```
-[Postman Collection](https://documenter.getpostman.com/view/56727411/2sBY4PP14N)
+https://documenter.getpostman.com/view/56727411/2sBY4PP14N
 ```
 
 ---
