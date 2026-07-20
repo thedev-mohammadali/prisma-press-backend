@@ -12,13 +12,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "^11.5.1",
-      "onFail": "download"
-    }
-  },
+  "packageManager": "pnpm@11.15.0",
   "type": "module",
   "devDependencies": {
     "@types/bcrypt": "^6.0.0",
