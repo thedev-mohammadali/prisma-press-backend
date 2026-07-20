@@ -49,7 +49,6 @@ const registerUserIntoDB = async (payload: IUserRegistrationPayload) => {
       profile: true,
     },
   });
-  console.log(createdUser);
 
   return user;
 };
